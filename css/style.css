@@ -1,0 +1,119 @@
+.navbar-modif {
+  background-image: url(/img/logo\ chris\ paint.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  max-width: 100%;
+  margin-bottom: 3rem;
+}
+
+button {
+  padding: 1rem 4rem;
+  background-color: rgb(145, 224, 238);
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 2s ease;
+}
+
+button:hover {
+  background: rgb(169, 241, 163);
+  color: cornsilk;
+}
+
+button:focus {
+  background: rgb(176, 197, 196);
+  outline-style: solid;
+}
+
+.card {
+  color: white;
+  background-image: url("/img/diagnosticoyt.jpg");
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 280px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  background-repeat: no-repeat;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 1.5rem;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+  transform: translateY(65%);
+  transition: transform 500ms ease;
+}
+
+.card:hover .card-body {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+.card-title {
+  text-decoration: underline;
+  text-decoration-color: lightgray;
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ul-ilu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.ul-ilu .ilum {
+  list-style: none;
+  color: #484848;
+  font-size: 80px;
+  letter-spacing: 15px;
+  animation: iluminar 1.4s linear infinite;
+}
+
+@keyframes iluminar {
+  0% {
+    color: #c01fc5;
+    text-shadow: none;
+  }
+  90% {
+    color: #3318ca;
+    text-shadow: none;
+  }
+  100% {
+    color: #00f7ff;
+    text-shadow: 0 0 7px #00ccff, 0 0 50px #ff6c00;
+  }
+}
+
+.ul-ilu .ilum:nth-child(1) {
+  animation-delay: 0s;
+}
+.ul-ilu .ilum:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.ul-ilu .ilum:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.ul-ilu .ilum:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.ul-ilu .ilum:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.ul-ilu .ilum:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.ul-ilu .ilum:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.ul-ilu .ilum:nth-child(8) {
+  animation-delay: 0.7s;
+}
